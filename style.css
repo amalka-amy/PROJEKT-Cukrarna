@@ -80,8 +80,6 @@ a:hover{
 	background-color: #d2567d;
 }
 
-
-
 header{
 	display:flex;
 	justify-content: space-between;
@@ -117,7 +115,6 @@ header a:hover{
 }
 
 #hero{
-	background: url(images/cupcake.jpg);
 	display:flex;
 }
 
@@ -141,11 +138,14 @@ header a:hover{
 	bottom: -35px;
 }
 
+#pozadi_obrazek{
+	background-size: cover;
+	background-image: url(images/cupcake.jpg);
+}
 
-
-#nabidka{
+#pozadi_barva{
+	background-size: cover;
 	background-color:#f0f0f0;
-
 }
 
 #nabidka .contejner{
@@ -160,12 +160,12 @@ header a:hover{
 	text-align: center;
 	flex-basis: 245px;
 	border: none;
+	box-shadow: 1px 1px 5px rgb(225, 223, 223);
 }
 #nabidka .produkt>img{
 	border-radius: 5px 5px 0px 0px;
 	width: 245px;
 }
-
 
 #peceni{
 	display:flex;
